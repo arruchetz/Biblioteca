@@ -14,8 +14,15 @@ public class Prestar {
     public void setFechaprestar(String fechaprestar){
         this.fechaprestar = fechaprestar;
     }
+    public String getFechaprestar(){
+        return fechaprestar;
+    }
+
     public void setFechadevolver(String fechadevolver){
         this.fechadevolver = fechadevolver;
+    }
+    public String getFechadevolver(){
+        return fechadevolver;
     }
 
     public void addLibro(Libro book){

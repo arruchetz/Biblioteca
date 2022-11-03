@@ -46,6 +46,11 @@ public class Main {
         System.out.println(user.getDireccion());
 
 
+        Prestar loan = new Prestar();
+        loan.setFechaprestar("3 de Noviembre de 2022");
+        loan.setFechadevolver("10 de Noviembre de 2022");
 
+        System.out.println(loan.getFechaprestar());
+        System.out.println(loan.getFechadevolver());
     }
 }
