@@ -3,7 +3,7 @@ package com.danielgararr.biblioteca;
 public class Usuario {
     private String nombre;
     private String apellido;
-    private Integer dni;
+    private String dni;
     private Integer telefono;
     private String direccion;
 
@@ -21,10 +21,10 @@ public class Usuario {
         this.apellido = apellido;
     }
 
-    public Integer getDni(){
+    public String getDni(){
         return dni;
     }
-    public void  setDni(Integer dni){
+    public void  setDni(String dni){
         this.dni = dni;
     }
 

@@ -36,7 +36,7 @@ public class Main {
         user.setNombre("Daniel");
         user.setApellido("García Arruche");
         user.setDni("708325798N");
-        user.setTelefono("654890537");
+        user.setTelefono(654890537);
         user.setDireccion("Calle Juan Grande");
 
         System.out.println(user.getNombre());
@@ -44,5 +44,8 @@ public class Main {
         System.out.println(user.getDni());
         System.out.println(user.getTelefono());
         System.out.println(user.getDireccion());
+
+
+
     }
 }
