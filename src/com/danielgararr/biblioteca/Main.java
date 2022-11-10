@@ -52,5 +52,15 @@ public class Main {
 
         System.out.println(loan.getFechaprestar());
         System.out.println(loan.getFechadevolver());
+
+
+        Genero gender = new Genero();
+        gender.setId(1);
+        gender.setNombre("Garcia");
+        gender.setDescription("70800900A");
+
+        System.out.println(gender.getId());
+        System.out.println(gender.getNombre());
+        System.out.println(gender.getDescription());
     }
 }
